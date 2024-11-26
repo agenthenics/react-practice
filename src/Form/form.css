@@ -1,0 +1,31 @@
+*{
+    margin: 10;
+    padding: 10;
+    box-sizing: border-box;
+    }
+
+.col-plain{
+    display: flex;
+    justify-content: center;
+    background-color: whitesmoke;
+}
+
+.form-input{
+    /* display: flex; */
+    padding: 5px;
+    margin: 10px;
+    width: 100%;
+    font-size: 18px;
+    border: none;
+}
+
+.submitBtn{
+    position: relative;
+    background-color: orange;
+    padding: 10px;
+    width: 20%;
+    border: none;
+    border-radius: 20%;
+    text-align: right;
+    
+}
