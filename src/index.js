@@ -14,6 +14,7 @@ import CustomHook from './CustomHook/CustomHook';
 import CallUsers from './CallUsers';
 import UseLayoutEffect from './UseLayoutEffect/UseLayoutEffect';
 import UseTransition from './UseTransition/UseTransition';
+import RoutesExample from './RoutesExample';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -30,7 +31,8 @@ root.render(
     {/* <CustomHook/> */}
     {/* <CallUsers/> */}
     {/* <UseLayoutEffect/> */}
-    <UseTransition/>
+    {/* <UseTransition/> */}
+    <RoutesExample/>
    </React.StrictMode>
 );
 

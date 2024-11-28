@@ -36,3 +36,22 @@
     transform: rotate(360deg);
   }
 }
+
+.customLogin{
+  padding: 10px;
+  color: black;
+  background-color: yellow;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0,0,0,0);
+  font-size: larger;
+}
+
+.contact_bg{
+  display: flex;
+  background-image:url('C:\xampp\htdocs\practice_projects\React\react-course\images\contact-us-sign-with-work-space.jpg');
+  width: 1980px;
+  height : 880px;
+  max-height: 100%;
+  max-width: 100%;
+}
