@@ -15,6 +15,7 @@ import CallUsers from './CallUsers';
 import UseLayoutEffect from './UseLayoutEffect/UseLayoutEffect';
 import UseTransition from './UseTransition/UseTransition';
 import RoutesExample from './RoutesExample';
+import UsersData from './Axios/UsersData';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -32,7 +33,8 @@ root.render(
     {/* <CallUsers/> */}
     {/* <UseLayoutEffect/> */}
     {/* <UseTransition/> */}
-    <RoutesExample/>
+    {/* <RoutesExample/> */}
+    <UsersData/>
    </React.StrictMode>
 );
 
